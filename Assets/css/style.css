@@ -34,7 +34,14 @@ header nav ul li{
   margin: 5px;
   font-size: 20px;
 }
+.content{
+  display: flex;
+}
 
+.labels{
+  flex-direction: column;
+  margin-right: 30%;
+}
 
  main { 
   display: flex;
@@ -46,22 +53,24 @@ display: flex;
 flex-direction: row;
 }
 
-.strucImg{
-display: flex;
+.structImg{
 align-content: center;
 }
 
+.proPic{
+  width: 20%;
+}
 
 .lftSide{
-height: 100%;
-width: 30%;
+width: 70%;
 background-color: darkmagenta;
-text-align: right;
+justify-content: center;
 }
 
 .rgtSide{
   width: 70%;
   background-color: gold;
+  flex-direction: column;
 }
 
 .bigImg{
@@ -70,7 +79,7 @@ text-align: right;
  justify-content: center;
   }
   .bigImg img{
-    width: 100%;
+    width: 75%;
     align-items: center;
      }
   
@@ -80,14 +89,10 @@ text-align: right;
   justify-content: space-between;
   width: 100%;
   }
-  .smlImg div{
-    width: 50%;
-    margin-bottom: 2%; /* (100-32*3)/2 */
-    justify-content: center;
-  }
 
   .smlImg img{
-  width: 100%;
+  width: 50%;
+  height: 50%;
   }
   footer{
     background-color: black;
@@ -104,10 +109,7 @@ background-position: center;
 }*/
 
  .abootMe{ 
-  display: flex;
-  margin: 5%;
-  flex-direction: column;
-  justify-content: center;
+width: 60%;
 }
 
 /* .abootMe h2{ 
