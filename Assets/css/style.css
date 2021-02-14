@@ -105,8 +105,8 @@ margin-right: auto;
  width: 100%;
  justify-content: center;
   }
-  .bigImg img{
-    width: 75%;
+  .bigImg a{
+    height: 100%;
     align-items: center;
      }
   
