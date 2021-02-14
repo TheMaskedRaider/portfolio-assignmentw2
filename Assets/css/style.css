@@ -36,7 +36,7 @@ header nav ul li{
 }
 
 
-main {
+ main { 
   display: flex;
   width: 100%;
 }
@@ -65,27 +65,30 @@ text-align: right;
 }
 
 .bigImg{
-display: flex;
+ display: flex;
  width: 100%;
-  background-color: darkmagenta;
-  justify-content: center;
+ justify-content: center;
   }
   .bigImg img{
-    max-width: 100%;
+    width: 100%;
     align-items: center;
      }
   
 .smlImg{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;;
+  justify-content: space-between;
+  width: 100%;
   }
   .smlImg div{
     width: 50%;
     margin-bottom: 2%; /* (100-32*3)/2 */
-    position: relative;
+    justify-content: center;
   }
 
+  .smlImg img{
+  width: 100%;
+  }
   footer{
     background-color: black;
     color: white;
@@ -100,12 +103,12 @@ background-size: cover;
 background-position: center;
 }*/
 
-/* .abootMe{ 
+ .abootMe{ 
   display: flex;
-  margin: 1%;
+  margin: 5%;
   flex-direction: column;
   justify-content: center;
-}*/
+}
 
 /* .abootMe h2{ 
 text-align: center;
